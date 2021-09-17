@@ -86,3 +86,32 @@ main {
     font-weight: bold;
     text-align: center;
 }
+
+/* Team section */
+
+.team {
+    background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.teammate img {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+/* contact & copyright */
+
+.contact, .copyright {
+    padding-top: 20px;
+}
